@@ -1581,6 +1581,7 @@ def test_mk_sygus_grammar(solver):
         slv.mkSygusGrammar([boolVar2], [intVar])
 
 
+# TODO: no getNullSort()
 def test_synth_fun(solver):
 #    null = solver.getNullSort()
     boolean = solver.getBooleanSort()
